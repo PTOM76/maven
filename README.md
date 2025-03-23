@@ -5,12 +5,12 @@ maven.pitan76.netの方はミラーとして使おうと考えています。
 
 ## repositories
 - build.gradle
-```gradle
+```build.gradle
     maven { url "https://maven.pkg.github.com/PTOM76/maven" }
 ```
 
 - pom.xml
-```xml
+```pom.xml
         <repository>
           <id>github</id>
           <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
