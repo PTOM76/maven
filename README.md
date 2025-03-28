@@ -30,7 +30,7 @@ repositories {
 ```
 
 - settings.xml
-```
+```settings.xml
 <settings>
   <servers>
     <server>
