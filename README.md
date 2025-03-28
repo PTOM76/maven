@@ -4,10 +4,10 @@ https://maven.pitan76.net/ に設置しているMavenリポジトリとは独立
 maven.pitan76.netの方はミラーとして使おうと考えています。
 
 ## repositories
+### Gradle
 - build.gradle
 ```build.gradle
 repositories {
-    # (...)
     maven {
         url "https://maven.pkg.github.com/PTOM76/maven"
         credentials {
@@ -18,6 +18,7 @@ repositories {
 }
 ```
 
+### Maven
 - pom.xml
 ```pom.xml
   <repositories>
